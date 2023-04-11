@@ -1,16 +1,3 @@
-# Heera Digital Frontend
-
-```sh
-# Clone this repository
-https://github.com/Markovian-Studios/HeeraDigitalFrontend.git
-
-# Install Dependencies
-yarn
-
-# Run
-yarn start
-```
-
 ## Folder Structure
 
 ```
