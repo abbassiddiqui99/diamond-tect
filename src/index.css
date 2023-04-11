@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@layer components {
+  input:-webkit-autofill { 
+    -webkit-background-clip: text;
+  }
+  strong {
+    @apply font-semibold;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+  .flex-end {
+    @apply flex items-center justify-end
+  }
+  .stripe-inputfield {
+    @apply px-3 py-2 text-gray-900 placeholder-gray-500 border-gray-300 rounded-none appearance-none focus:z-10 sm:text-sm;
+  }
+  .stripe-input {
+    @apply relative block w-full px-2 py-1 text-gray-900 placeholder-gray-500 border rounded-lg appearance-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm;
+  }
+  .primary-gradient {
+    background: linear-gradient(95.72deg, theme('colors.primary-blue') -19.49%, theme('colors.primary-cyan') 132.95%);
+  }
+  .dropdown-menu {
+    @apply inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-500 rounded-md hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75;
+  }
+  .auth-grid {
+    @apply grid grid-cols-12 md:grid-cols-7 lg:grid-cols-10;
+  }
+  .auth-grid-col {
+    @apply col-span-10 col-start-2 md:col-span-5 md:col-start-2 lg:col-span-4 lg:col-start-4;
+  }
+  .word-break {
+    word-break: break-word;
+  }
+  .fade-in {
+    animation: fadein 0.4s;
+  }
+  .avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+  }
+  .max-w-5 {
+    max-width: 5rem;
+  }
+  .disable-link {
+    @apply opacity-50 pointer-events-none;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    transform: translateY(-25%);
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+}

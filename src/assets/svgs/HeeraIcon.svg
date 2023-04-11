@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Color_horizontal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="750px" height="500.001px" viewBox="0 0 750 500.001" enable-background="new 0 0 750 500.001"
+	 xml:space="preserve">
+<linearGradient id="icon_1_" gradientUnits="userSpaceOnUse" x1="375" y1="500.001" x2="375" y2="4.882813e-004">
+	<stop  offset="0" style="stop-color:#025CF8"/>
+	<stop  offset="1" style="stop-color:#00DCFE"/>
+</linearGradient>
+<polygon id="icon" fill-rule="evenodd" clip-rule="evenodd" fill="url(#icon_1_)" points="79.314,100.003 190.157,100.003 
+	250.788,0 309.262,0 235.088,122.338 441.748,417.48 686.908,122.706 634.957,50.002 529.53,50.002 575.001,125.005 
+	440.045,317.039 409.31,273.149 514.917,122.338 471.053,50.002 344.687,50.002 375.001,0 440.739,0 499.215,0 599.234,0 660.685,0 
+	750,125.005 438.522,500.001 192.564,150.002 85.791,150.002 341.435,457.375 311.479,500.001 0,125.005 89.313,0 150.765,0 "/>
+</svg>
